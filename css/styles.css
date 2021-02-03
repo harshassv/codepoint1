@@ -1,0 +1,100 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: orange;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 13px;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: green;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: blue;
+  background: orange;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: yellow;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid ;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.menu-name > h2{
+  color: #557c3e;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.menu-name{
+  margin-bottom: 25px;
+}
+#main-content a:hover, #main-content a:focus {
+  text-decoration: none;
+}
+#home-tiles p{
+  padding: 20px;
+}
+#menu-tile, #specials-tile, #map-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  color: blue;
+  font-weight: bold;
+  opacity: .8;
+}
+@media (max-width: 767px) {
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw;
+  }
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 479px) {
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}
